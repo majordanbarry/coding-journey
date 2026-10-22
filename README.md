@@ -21,6 +21,7 @@
 | `c/05-binary-search` | 二分查找 | 用 `left` / `right` 收缩区间，`mid` 逐步逼近 |
 | `cpp/01-io` | C++ 输入输出 | `cin` / `cout`、`endl` |
 | `cpp/02-static-extern` | 作用域与链接 | `static` 修饰函数和变量、`extern` 声明 |
+| `cpp/03-pointer` | 指针与 const | `const int*` 不能改值、`int* const` 不能改指向 |
 
 ## 怎么运行
 
@@ -36,8 +37,8 @@
 - [x] 二分查找
 - [x] C++ 的 `cin` / `cout`
 - [x] `static` / `extern`
+- [x] 指针与 `const`
 - [ ] 函数与递归
-- [ ] 指针
 - [ ] 结构体
 - [ ] 文件操作
 - [ ] 面向对象
