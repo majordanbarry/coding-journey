@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="if-else/if-else.vcxproj" Id="5a60b5cb-bb37-48b5-9f5a-81c03012301d" />
+</Solution>

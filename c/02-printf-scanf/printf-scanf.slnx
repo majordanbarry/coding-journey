@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="printf-scanf/printf-scanf.vcxproj" Id="8305d1d0-3382-4877-a6ee-46675a1eaac5" />
+</Solution>
