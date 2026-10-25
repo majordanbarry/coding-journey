@@ -24,6 +24,8 @@
 | `cpp/03-pointer` | 指针与 const | `const int*` 不能改值、`int* const` 不能改指向 |
 | `cpp/04-ptr-arr` | 数组与指针 | `arr[i]` 就是 `*(arr+i)`、`&arr` 与 `&arr[0]` 的区别、数组传参传的是地址 |
 
+> 函数与递归没有单独建练习目录，实践集中在 [minesweeper](https://github.com/majordanbarry/projects/tree/main/minesweeper) 里（`OpenBoard` 的递归展开、`FindMine` 的主循环、`GetMineCount` 的计数）。
+
 ## 怎么运行
 
 每个练习目录下都有一个 `.slnx` 解决方案文件，用 Visual Studio 2022 打开，按 `F5` 运行。
