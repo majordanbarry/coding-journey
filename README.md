@@ -22,6 +22,7 @@
 | `cpp/01-io` | C++ 输入输出 | `cin` / `cout`、`endl` |
 | `cpp/02-static-extern` | 作用域与链接 | `static` 修饰函数和变量、`extern` 声明 |
 | `cpp/03-pointer` | 指针与 const | `const int*` 不能改值、`int* const` 不能改指向 |
+| `cpp/04-ptr-arr` | 数组与指针 | `arr[i]` 就是 `*(arr+i)`、`&arr` 与 `&arr[0]` 的区别、数组传参传的是地址 |
 
 ## 怎么运行
 
