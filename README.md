@@ -6,7 +6,7 @@
 
 这里记录我从零开始接触编程语言的过程。每个目录对应一个知识点或一次练习，代码里保留着我自己的注释、写错又改对的痕迹，不是抄来的标准答案。
 
-完整的项目放在另一个仓库：[minesweeper-cpp](https://github.com/majordanbarry/minesweeper-cpp)（控制台扫雷）。
+完整的项目放在另一个仓库：[projects](https://github.com/majordanbarry/projects)，目前里面有控制台扫雷（`minesweeper/`）。
 
 ## 目录
 
