@@ -1,6 +1,12 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 using namespace std;
+int add(int a, int b) {
+	return a + b;
+}
+int sub(int a, int b) {
+	return a - b;
+}
 int main(){
 	//int arr[5] = { 1,2,3,4,5 };
 	//cout << &arr<<" \n"<<&arr[0]<<endl;
@@ -22,7 +28,14 @@ int main(){
 	//数组 计算机会转换为指针运算，arr[i] = *(arr+i) = *(i+arr) = i[arr]
 	int arr[5] = { 1,2,3,4,5 };
 	//数组传参本质上是传递指针，数组名就是数组首元素的地址
-	
-
+	//指针数组不用解引用，直接使用数组名即可
+	int arr1[5] = { 1,2,3,4,0 };
+	int* parr[2] = { arr,arr1 };
+	cout<<parr[0][4]<<endl;
+	//char* p="hello";
+	typedef int(*arr_ptr)[5];
+	int (*arr[4])(int, int) = { add,sub };
+	//int (*p)[10] = &arr;数组指针
+	//int* p[10] = arr;指针数组
 	return 0;
 }

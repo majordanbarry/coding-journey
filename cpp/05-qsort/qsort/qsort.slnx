@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="qsort/qsort.vcxproj" Id="4e3e4548-8933-4898-83a8-93bd8db07d25" />
+</Solution>
